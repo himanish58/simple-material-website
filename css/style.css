@@ -1,0 +1,67 @@
+
+#logo{
+  height: 65px;
+  width: 65px;
+  margin-left: 20px;
+}
+
+#image1 {
+  background-image: url('https://lorempixel.com/800/400/food/1');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image2 {
+  background-image: url('https://lorempixel.com/800/400/food/2');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image3 {
+  background-image: url('https://lorempixel.com/800/400/food/3');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image4 {
+  background-image: url('https://lorempixel.com/800/400/food/4');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section h1 {
+  margin: 0;
+  padding-top: 30px;
+}
+
+#about {
+  background-color: black;
+}
+
+#hiw {
+
+}
+
+#contact {
+  background-color: #f4f4f4;
+}
+
+.row {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 992px) {
+  #logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 0;
+    padding-top: 10px;
+  }
+}
